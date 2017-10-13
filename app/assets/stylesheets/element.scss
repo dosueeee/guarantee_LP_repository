@@ -1,0 +1,133 @@
+/* 画像がはみ出す対策 */
+@media screen and (max-width: 480px) {
+  img {
+    max-width:100%;
+    height:auto;
+  }
+}
+
+body {
+  /* 横向き対応 */
+  -webkit-text-size-adjust : 100% ;
+  font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN','メイリオ', Meiryo,sans-serif;
+}
+
+/* スクロール対策　*/
+#wrap {
+  overflow : hidden ;
+}
+
+/*.container {
+  padding: 10px
+}*/
+
+header {
+  background-image: url(https://www.fastpic.jp/viewer.php?file=1294264558.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+header h1 {
+  color: #FFE600;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header h5 {
+  color: #FFE600;
+  font-size: 15px;
+}
+
+header h4 {
+  color: #FFE600;
+  font-size: 15px;
+}
+
+.btn-wrapper {
+  text-align: center;
+}
+
+.btn-wrapper {
+  margin: 20px
+}
+
+.btn {
+  padding: 8px 24px;
+  display: inline-block;
+  border-radius: 5px
+}
+
+.appstore {
+  color: white;
+  background-color: #170D1F;
+}
+
+.line {
+  color: white;
+  background-color: #3EBA2B;
+
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.empathy-wrapper {
+  text-align: center;
+}
+
+.presentation-wrapper {
+  text-align: center;
+  background-color: #F3D1E5;
+}
+
+.benefit-wrapper {
+  text-align: center;
+  background-color: #FEF7D5;
+}
+
+.benefit {
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.safety {
+  background-color: #F6CA06;
+}
+
+.price {
+  background-color: #F6CA06;
+}
+
+.space {
+  width: 100%
+}
+
+.flow-wrapper {
+  text-align: center;
+  background-color: #CAE7F2;
+}
+
+.sns {
+  padding: 8px 8px;
+  display: inline-block;
+  border-radius: 20px
+}
+
+.twitter {
+  color: white;
+  background-color: #170D1F;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  background-color: #DA5019;
+}
+
+.footer-list li {
+  list-style: none;
+}
+
