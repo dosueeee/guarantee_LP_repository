@@ -10,6 +10,7 @@ body {
   /* 横向き対応 */
   -webkit-text-size-adjust : 100% ;
   font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN','メイリオ', Meiryo,sans-serif;
+  margin: 0px;
 }
 
 /* スクロール対策　*/
@@ -22,33 +23,32 @@ body {
 }*/
 
 header {
-  background-image: url(https://www.fastpic.jp/viewer.php?file=1294264558.jpg);
+  background-image: url(screenshot-women.jpg);
   background-size: cover;
   text-align: center;
+  margin: 0px;
 }
 
 header h1 {
-  color: #FFE600;
+  color: #EDAD0B;
   font-size: 20px;
   font-weight: bold;
+  margin: 0px;
 }
 
 header h5 {
-  color: #FFE600;
+  color: #EDAD0B;
   font-size: 15px;
 }
 
 header h4 {
-  color: #FFE600;
+  color: #EDAD0B;
   font-size: 15px;
 }
 
 .btn-wrapper {
   text-align: center;
-}
-
-.btn-wrapper {
-  margin: 20px
+  margin: 20px 20px 40px 20px
 }
 
 .btn {
@@ -74,7 +74,12 @@ header h4 {
 
 .empathy-wrapper {
   text-align: center;
+  background-color: #A5D4AD;
 }
+
+/*.empathy-wrapper h2 {
+  margin: 0px;
+}*/
 
 .presentation-wrapper {
   text-align: center;
@@ -127,7 +132,7 @@ header h4 {
   background-color: #DA5019;
 }
 
-.footer-list li {
-  list-style: none;
+.footer-list a {
+  display: list-item;
 }
 
